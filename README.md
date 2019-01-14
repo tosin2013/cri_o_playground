@@ -249,7 +249,7 @@ takinos+ 25702  0.0  0.0 215744   832 pts/1    S+   17:59   0:00 grep --color=au
 [CRI-O Command Line Interface: crictl](https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md)  
 [runc](https://github.com/opencontainers/runc)  
 [skopeo](https://github.com/containers/skopeo)  
-[Getting started with Buildah](https://opensource.com/article/18/6/getting-started-buildah)
+[Getting started with Buildah](https://opensource.com/article/18/6/getting-started-buildah)  
 [Intro to Podman (Red Hat Enterprise Linux 7.6 Beta)](https://developers.redhat.com/blog/2018/08/29/intro-to-podman/)
 
 ## Known Issues
