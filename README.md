@@ -1,4 +1,4 @@
-# Openshift Conainer runtimes
+# Openshift Container runtimes
 This document will discuss the cri-o container runtime that OpenShift can use. It will also discuss the tools that work with CRI-O such as buildah and podman.
 
 ## CRI-O
@@ -56,8 +56,8 @@ Podman is a damon-less CLI/API for running, managing and debugging OCI container
 * Integration with CRI-O to share containers and backend code.  
 [podman](https://github.com/containers/libpod)
 
-## Example
-run ./cri-o-example-via-minikube.sh to see cri-o functionality. In order to run script please have minikube already installed.
+## Example CRI-O Usage
+run []./cri-o-example-via-minikube.sh](https://github.com/tosin2013/cri_o_playground/blob/master/cri-o-example-via-minikube.sh) to see cri-o functionality. In order to run script please have minikube already installed.
 
 
 ## Outputs
@@ -95,6 +95,11 @@ ID                                                                 PID         S
 09ed56c218cb758a2e2947eaf9050496906bdcdc2c3f3317a4084e6b425d3d36   3187        running     /run/containers/storage/overlay-containers/09ed56c218cb758a2e2947eaf9050496906bdcdc2c3f3317a4084e6b425d3d36/userdata   2019-01-14T18:57:02.915424082Z   root
 ...
 ```
+
+## Example buildah Usage
+
+
+## Example podman Usage
 
 ## Additional links
 [OpenShift Container Platform 3.11 CRI-O Runtime Guide](https://access.redhat.com/documentation/en-us/openshift_container_platform/3.11/html/cri-o_runtime/)  
